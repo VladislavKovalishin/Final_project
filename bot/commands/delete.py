@@ -30,4 +30,3 @@ class AddReminderCommand(BotCommand):
 
     def execute(self, text, chat_id, user_id):
         return self.strategy.handle(text, chat_id, user_id)
-
